@@ -1,4 +1,4 @@
-## Project 0 for Project Nautilus ##
+## Udacity Front-End Nanodegree program ##
 
 ###Instructions:
 
