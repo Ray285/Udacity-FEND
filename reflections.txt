@@ -1,0 +1,20 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+Your response goes here!
+
+    * So far I have learned some HTML5 tags that I was not familiar with such as <em>, <sup>, and <sub>, among many others. I have also learned how to view pages
+    as nothing more than trees, this is helpful in reasoning out how I should translate designs to mockups because I now have a process to follow.
+
+    * Learning new HTML tags has been pretty straight forward.
+
+    * So far, I would say the most difficult part has been identifying which HTML tags are best to use in a particular scenario, the figure tag was one that I
+    wasn't previously aware of and most likely would not have tried.
+
+    * So far, I am focusing on utilizing the tools pointed out in the first project such as the Mozilla Developer Network and Stack Overflow whenever I am not completely
+    sure how I should approach a particular task.
