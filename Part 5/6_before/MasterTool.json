@@ -1,0 +1,13 @@
+[
+    {"id":"33-49653","name":"Wrench","description":"12 inch wrench","price":"30.00","weight":"2"},
+    {"id":"33-49654","name":"Wrench","description":"8 inch wrench","price":"20.00","weight":"1"},
+    {"id":"54782","name":"Calibrator","description":"Calibrator - pressure, temperature and electrical signals","price":"360.00","weight":"4"},
+    {"id":"B00002N5M0","name":"Linear Fiberglass Tape","description":"Lufkin 706L 1\/2-Inch x 100 Hi-Viz Orange Closed Reel Linear Fiberglass Tape","price":"15.48","weight":"1"},
+    {"id":"B00192FOOK","name":"Fiberglass Tape Measure","description":"Lufkin FE100 1\/2 x 100 Hi-Viz Orange Fiberglass Tape Measure, Feet & Inches","price":"21.94","weight":"2"},
+    {"id":"B001JK3XE0","name":"Electrician Tool Kit","description":"Hobbes Innovation HT-2023 Field Service Electrician and Engineer Tool Kit","price":"139.97","weight":"7"},
+    {"id":"B00Z5KETD4","name":"Digital Caliper","description":"High Quality Smooth-gliding Durable Stainless Steel Electronic Measuring Tool by EAGems, 6\/150mm\/Fractions, Large LCD Screen, IP54 Water Resistant","price":"21.94","weight":"1"},
+    {"id":"C00492ICUY","name":"High Visibility Vest","description":"Class 2 Heavy Woven Two Tone Engineer High Visibility Vest","price":"52.34","weight":"1"},
+    {"id":"D0505R7EE2","name":"Thermal Imager","description":"Fluke Ti10 9Hz Thermal Imager","price":"3950.00","weight":"8"},
+    {"id":"G54-220-61","name":"Soldering Iron","description":"Soldering Iron","price":"65.00","weight":"3"},
+    {"id":"SPC82R","name":"FE Tool Kit","description":"Professional Field Service Tool Kit","price":"230.00","weight":"6"}
+]

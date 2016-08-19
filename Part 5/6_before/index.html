@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo 6 - Load Json Data</title>
+        <link rel="stylesheet" type="text/css" href="css/site.css">
+        <script src="js/angular.js" type="text/javascript"></script>
+        <script src="app/index.app.js" type="text/javascript"></script>
+    </head>
+
+    <body ng-app="app"  ng-controller = "MasterToolController as mtCtrl">
+
+        <section>
+            <h3>{{ mtCtrl.title }}</h3>
+
+            <div class = "tool" ng-repeat = "tool in mtCtrl.masterTools">
+                <div class = "toolName">{{ tool.name }}</div>
+                <ul>
+                    <li>ID: {{ tool.id }}</li>
+                    <li>Price: $ {{ tool.price }}</li>
+                    <li>Weight: {{ tool.weight }} kg</li>
+                    <li>Product Description: {{ tool.description }}</li>
+                </ul>
+            </div>
+
+            <div>
+                <form name="newMTForm" class="newMasterToolForm">
+                    <div class = "inputDiv">
+                        <div class = "labelDiv"><label>Master Tool Id: </label></div>
+
+                        <input id="inpNewMasterToolId" name="inpNewMasterToolId" ng-model="mtCtrl.newMasterTool.id">
+
+                    </div>
+
+                    <div class = "inputDiv">
+                        <div class = "labelDiv"><label>Name: </label></div>
+                        <input id="inpNewMasterToolName" ng-model="mtCtrl.newMasterTool.name">
+                    </div >
+
+                    <div class = "inputDiv">
+                        <div class = "labelDiv"><label>Price: </label></div>
+                        <input id="inpNewMasterToolPrice" ng-model="mtCtrl.newMasterTool.price">
+                    </div >
+
+                    <div class = "inputDiv">
+                        <div class = "labelDiv"><label>Weight: </label></div>
+                        <input id="inpNewMasterToolWeight" ng-model="mtCtrl.newMasterTool.weight">
+                    </div >
+
+                    <div class = "inputDiv">
+                        <div class = "labelDiv"><label>Description: </label></div>
+                        <textarea id="inpNewMasterToolDesc" ng-model="mtCtrl.newMasterTool.description" rows="5"></textarea>
+                    </div >
+
+                    <div class = "inputDiv">
+                        <button id="btnAddMasterTool" class="btn" ng-click="mtCtrl.AddMasterTool()">Add Master Tool</button>
+                    </div>
+                </form>
+            </div>
+
+            <div>
+                <form class="newMasterToolForm">
+                    <div class="inputDiv">
+                        <div class="labelDiv"><label for="delete-id">Master Tool Id: </label></div>
+                        <input type="text" name="delete-id">
+                    </div>
+                    <div class="inputDiv">
+                        <button id="btnDeleteMasterTool" class="btn" ng-click="mtCtrl.DeleteMasterTool()">Delete Master Tool</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </section>
+    </body>
+</html>

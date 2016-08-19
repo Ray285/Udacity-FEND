@@ -1,0 +1,29 @@
+Udacity Notes:
+--------------
+
+Module 5 - Optimizations
+------------------------
+Responsive Tables Hidden Columns:
+    -Hides columns based on their importance as the viewport size gets smaller
+    -Need to determine the most important content
+    -Uses "display: none" property
+    -Draw back is that content is hidden from the user, if possible use abbreviated data instead
+
+Responsive Tables - No More Tables:
+    -Below a certain viewport width table data is collapsed
+    -All data is visible regardless of viewport size
+    -example: http://codepen.io/JohnMav/pen/BoGJNy
+
+Responsive Tables - Contained Scrolling:
+    -Wrap table in a div, set "width: 100%;", "overflow-x: auto;"
+    -This will cause the table to scroll within the viewport
+    -example: http://codepen.io/JohnMav/pen/Mazrwm
+
+Fonts:
+    -Ideal length of a line for the Web is 65 characters per line (cpl)
+    -We need to consider line length as we choose breakpoints for our sites
+    -Base font sizes of 16px and 1.2em line height help to provide consistently readable content
+
+Minor Breakpoints:
+    -In addition to major breakpoints where layout changes, minor breakpoints may be used
+    to make small changes such as margin, padding, font-size, etc;
